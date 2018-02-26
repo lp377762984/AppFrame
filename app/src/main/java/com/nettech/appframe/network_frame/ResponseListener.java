@@ -4,7 +4,7 @@ package com.nettech.appframe.network_frame;
  * Created by ASUS on 2018/2/25.
  */
 
-public interface ResponseListener {
+public interface ResponseListener extends BaseResponseListener {
     void onSStart(int what);
     void onFFinish(int what);
     void noNet(int what);

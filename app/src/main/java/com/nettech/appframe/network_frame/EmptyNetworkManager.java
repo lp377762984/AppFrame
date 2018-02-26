@@ -11,7 +11,7 @@ public class EmptyNetworkManager implements NetworkManager {
     }
 
     @Override
-    public void doRequest(int what ,NetRequest request, ResponseListener responseListener) {
+    public void doRequest(int what ,NetRequest request, BaseResponseListener responseListener) {
 
     }
 

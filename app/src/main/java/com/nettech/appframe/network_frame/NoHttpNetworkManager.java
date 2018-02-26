@@ -21,7 +21,7 @@ public class NoHttpNetworkManager extends EmptyNetworkManager {
     }
 
     @Override
-    public void doRequest(int what, NetRequest request, ResponseListener responseListener) {
+    public void doRequest(int what, NetRequest request, BaseResponseListener responseListener) {
         if (requestQueue == null)
             requestQueue = NoHttp.newRequestQueue();
         requestQueue.add(what, ((NetRequestImpl) request), ((OnResponseListener<String>) responseListener));

@@ -8,9 +8,9 @@ import com.yanzhenjie.nohttp.rest.Response;
  * Created by Administrator on 2018/2/26.
  */
 public class NoHttpResponseListener implements OnResponseListener<String>,ResponseListener {
-    private ListenerCallback callback;
+    private ResponseListener callback;
 
-    public NoHttpResponseListener(ListenerCallback callback) {
+    public NoHttpResponseListener(ResponseListener callback) {
         this.callback = callback;
     }
     /**

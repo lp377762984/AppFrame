@@ -6,6 +6,6 @@ package com.nettech.appframe.network_frame;
 
 public interface NetworkManager {
     NetRequest buildRequest(String url);
-    void doRequest(int what, NetRequest request, ResponseListener responseListener);
+    void doRequest(int what, NetRequest request, BaseResponseListener responseListener);
     void removeRequest();
 }

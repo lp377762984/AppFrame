@@ -12,7 +12,7 @@ import android.util.Log;
 import android.widget.Toast;
 
 
-public class BaseActivity extends AppCompatActivity implements ListenerCallback {
+public class BaseActivity extends AppCompatActivity implements ResponseListener {
     NetworkManager manager = new NoHttpNetworkManager();
     String TAG = this.getClass().getSimpleName();
     private NetBroadcastReceiver mNetReceiver;
