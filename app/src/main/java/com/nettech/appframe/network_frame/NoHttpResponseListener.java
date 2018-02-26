@@ -6,6 +6,7 @@ import com.yanzhenjie.nohttp.rest.Response;
 
 /**
  * Created by Administrator on 2018/2/26.
+ * 解决activity内存泄漏问题
  */
 public class NoHttpResponseListener implements OnResponseListener<String>,ResponseListener {
     private ResponseListener callback;
