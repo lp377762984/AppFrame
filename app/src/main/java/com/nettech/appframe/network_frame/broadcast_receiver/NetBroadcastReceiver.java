@@ -1,4 +1,4 @@
-package com.nettech.appframe.network_frame;
+package com.nettech.appframe.network_frame.broadcast_receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

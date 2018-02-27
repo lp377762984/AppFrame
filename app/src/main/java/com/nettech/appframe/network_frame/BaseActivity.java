@@ -11,6 +11,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.nettech.appframe.network_frame.broadcast_receiver.FinishBroadcastReceiver;
+import com.nettech.appframe.network_frame.broadcast_receiver.NetBroadcastReceiver;
+import com.nettech.appframe.network_frame.listener.ResponseListener;
+import com.nettech.appframe.network_frame.manager.NetworkManager;
+import com.nettech.appframe.network_frame.manager.NoHttpNetworkManager;
+
 
 public class BaseActivity extends AppCompatActivity implements ResponseListener {
     NetworkManager manager = new NoHttpNetworkManager();

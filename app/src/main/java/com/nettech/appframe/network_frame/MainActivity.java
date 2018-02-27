@@ -11,6 +11,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.nettech.appframe.R;
+import com.nettech.appframe.network_frame.listener.NoHttpResponseListener;
+import com.nettech.appframe.network_frame.request.NetRequest;
 
 
 public class MainActivity extends BaseActivity implements View.OnClickListener, BaseActivity.PermissionCallback {

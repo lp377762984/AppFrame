@@ -1,4 +1,4 @@
-package com.nettech.appframe.network_frame;
+package com.nettech.appframe.network_frame.request;
 
 import com.yanzhenjie.nohttp.RequestMethod;
 import com.yanzhenjie.nohttp.rest.StringRequest;

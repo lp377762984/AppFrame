@@ -1,5 +1,8 @@
-package com.nettech.appframe.network_frame;
+package com.nettech.appframe.network_frame.manager;
 
+import com.nettech.appframe.network_frame.listener.BaseResponseListener;
+import com.nettech.appframe.network_frame.request.NetRequest;
+import com.nettech.appframe.network_frame.request.NetRequestImpl;
 import com.yanzhenjie.nohttp.NoHttp;
 import com.yanzhenjie.nohttp.RequestMethod;
 import com.yanzhenjie.nohttp.rest.OnResponseListener;
